@@ -1,4 +1,4 @@
-package comportamentais
+package criacionais
 
 class FactoryMethod {
 }

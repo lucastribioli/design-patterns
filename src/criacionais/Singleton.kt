@@ -1,0 +1,4 @@
+package criacionais
+
+class Singleton {
+}

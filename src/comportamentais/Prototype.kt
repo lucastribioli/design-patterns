@@ -1,4 +1,0 @@
-package comportamentais
-
-class Prototype {
-}

@@ -1,0 +1,4 @@
+package comportamentais
+
+class Singleton {
+}

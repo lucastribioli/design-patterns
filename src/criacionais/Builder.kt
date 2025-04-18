@@ -1,7 +1,11 @@
 package criacionais
 
 fun main() {
-    val pessoa = Pessoa.Builder().email("teste@gmail.com").build()
+    val pessoa = Pessoa
+        .Builder()
+        .email("teste@gmail.com")
+        .nome("Teste")
+        .build()
     println(pessoa.email)
 }
 class Pessoa private constructor(

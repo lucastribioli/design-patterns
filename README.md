@@ -15,13 +15,14 @@ Padrões de projeto são soluções reutilizáveis para problemas recorrentes na
 
 ### 🏗️ 1. Padrões Criacionais
 
-| Padrão        | Resumo                                                                 |
-|---------------|------------------------------------------------------------------------|
-| Singleton     | Garante que exista apenas **uma instância** de uma classe.             |
-| Factory Method| Cria objetos através de uma **interface comum**, sem expor a lógica de criação. |
-| Abstract Factory | Cria **famílias de objetos relacionados** sem especificar as classes concretas. |
-| Builder       | Separa a construção de um objeto complexo da sua representação.        |
-| Prototype     | Cria novos objetos **clonando** uma instância existente.               |
+| Padrão                | Resumo                                                                 |
+|-----------------------|------------------------------------------------------------------------|
+| Singleton             | Garante que exista apenas **uma instância** de uma classe.             |
+| Factory Method        | Cria objetos através de uma **interface comum**, sem expor a lógica de criação. |
+| Abstract Factory      | Cria **famílias de objetos relacionados** sem especificar as classes concretas. |
+| Builder               | Separa a construção de um objeto complexo da sua representação.        |
+| Prototype             | Cria novos objetos **clonando** uma instância existente.               |
+| Static Factory Method | criação de objetos de maneira controlada, expressiva e eficiente, ocultando detalhes de implementação e melhorando a legibilidade do código. |
 
 ---
 

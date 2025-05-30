@@ -5,6 +5,7 @@ fun main() {
     val lightOffCommand = LightOffCommand(Light())
     val remoteControl = RemoteControl()
     remoteControl.addCommand(lightOnCommand)
+    remoteControl.executeCommands()
     remoteControl.addCommand(lightOffCommand)
     remoteControl.executeCommands()
 }
@@ -46,6 +47,6 @@ class RemoteControl {
         for (command in commands) {
             command.action()
         }
-        commands.clear() // Clear commands after execution
+        commands.clear()
     }
 }
